@@ -1,6 +1,6 @@
-var UserInterface={};
+var UI={};
 //basic selectors
-var UI=function(selector){
+var $=function(selector){
 	var selectorSub=selector.slice(1);
 	switch(selector[0]){
 		//class selector
