@@ -17,3 +17,4 @@ var $=function(selector){
 		break;
 	}
 }
+Element.prototype.$=$;
